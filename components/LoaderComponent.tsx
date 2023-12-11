@@ -7,7 +7,7 @@ const LoaderComponent = () => {
         <Image src="/logo.png" fill alt="logo" />
       </div>
       <p className="text-sm text-muted-foreground">
-        Kachi is thinking...
+        Pedro is thinking...
       </p>
     </div>
   );

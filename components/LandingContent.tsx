@@ -6,39 +6,33 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 const testimonials = [
   {
     avatar: "/reviews/avatar-1.png",
-    title: "Richard Thompson",
+    title: "William James",
     job: "Chef",
     description:
       "Genius, the AI code generator, exemplifies the cutting edge of artificial intelligence innovation by seamlessly producing intricate and sophisticated code structures. Its ability to comprehend complex programming tasks and deliver precise, functional solutions showcases the pinnacle of machine intelligence in software development. ",
   },
   {
     avatar: "/reviews/avatar-2.png",
-    title: "Evelyn Anderson",
+    title: "Will Josh",
     job: "Interior Designer",
     description:
       "Genius, the AI music generator, showcases an unparalleled ability to compose intricate and emotionally resonant musical pieces. Its innovative algorithms seamlessly blend genres, creating compositions that captivate and transcend traditional boundaries. ",
   },
   {
     avatar: "/reviews/avatar-3.png",
-    title: "John Doe",
+    title: "Brad Boston",
     job: "Game Dev",
     description:
       "Genius, the remarkable AI, exemplifies the pinnacle of innovation in video generation. Its intricate algorithms seamlessly craft visually stunning and engaging content, showcasing the immense potential of artificial intelligence in creative endeavors.",
   },
   {
     avatar: "/reviews/avatar-4.png",
-    title: "Emily Smith",
+    title: "Sandra Mic",
     job: "Therapist",
     description:
       "Genius, the AI text generator, exemplifies unparalleled creativity and linguistic prowess, seamlessly producing coherent and contextually relevant content. Its ability to comprehend and mimic human-like language showcases a remarkable advancement in artificial intelligence, paving the way for innovative applications across various domains. ",
   },
-  // {
-  //   avatar: "/reviews/avatar-5.png",
-  //   name: "Oliver Taylor",
-  //   title: "Engineer",
-  //   description:
-  //     "Meet Kachi, the virtuoso of the web development world. His coding prowess is like a finely tuned instrument, creating harmonies in every line of code.",
-  // },
+  
 ];
 
 const LandingContent = () => {
@@ -56,13 +50,13 @@ const LandingContent = () => {
             <CardHeader >
               <CardTitle className=" flex items-center gap-x-2">
                 <div>
-                  {" "}
+                  {/* {" "}
                   <Image
                     src={item.avatar}
                     width={30}
                     height={30}
                     alt="Image"
-                  />{" "}
+                  />{" "} */}
                 </div>
                 <div>
                   <p className="text-lg">{item.title}</p>

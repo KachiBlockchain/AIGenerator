@@ -30,7 +30,8 @@ export async function GET() {
         return_url: settingUrl,
       });
 
-      return new NextResponse(JSON.stringify({url: stripeSession}))
+      console.log("stripeSession : ", stripeSession)
+      return new NextResponse(JSON.stringify({url: stripeSession.url}))
 
     
     }
